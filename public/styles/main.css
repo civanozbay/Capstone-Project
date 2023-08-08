@@ -3,13 +3,13 @@ html {
     background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
     min-height: 1000px;
     font-family: "helvetica neue";
-  }
-  body {
+}
+body {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     min-height: 95vh;
-  }
+}
   main {
     text-align: center;
     flex: 1 0 auto;
@@ -73,7 +73,6 @@ html {
     background-color: #a683e3;
     color: #fff;
     font-size: 30px;
-  
     border-width: 0;
   }
   
