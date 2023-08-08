@@ -17,7 +17,7 @@
   <main>
     <div class="box" id="heading" bis_skin_checked="1">
       <h1>
-        <%= dt %>
+        Work List
       </h1>
     </div>
     <div class="box" bis_skin_checked="1">
@@ -32,13 +32,13 @@
         <p>
         </p>
       </div>
-      <% for (let item of items) { %>
+      <% for (let item of workItems) { %>
         <div class="item" bis_skin_checked="1">
           <input type="checkbox">
           <p><%= item %></p>
         </div>
         <% } %>
-        <form class="item" action="/" method="post">
+        <form class="item" action="/work" method="post">
           <input type="text" name="newItem" placeholder="New Item" autocomplete="off" />
           <button type="submit" name="list" value="Work List">+</button>
         </form>
